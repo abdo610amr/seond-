@@ -1,0 +1,101 @@
+/* ======= General Reset ======= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======= Body Styling ======= */
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Figtree', sans-serif;
+}
+
+/* ======= Card Container ======= */
+.frame {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 8px 8px 0px black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ======= Image ======= */
+.main-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ======= Label "Learning" ======= */
+.ficon {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+/* ======= Date ======= */
+.date {
+  font-size: 12px;
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+
+/* ======= Title ======= */
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+/* ======= Description ======= */
+.desc {
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+}
+
+/* ======= Author Section ======= */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* ======= Attribution ======= */
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
